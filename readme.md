@@ -1,5 +1,7 @@
 # MySQL Lab
 
+![1741397950258](image/readme/1741397950258.png)
+
 ## Table of Contents
 
 1. [Introduction to MySQL](#introduction-to-mysql)

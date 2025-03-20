@@ -139,7 +139,7 @@ SELECT
     invoice_id,
     invoice_total,
     (SELECT AVG(invoice_total) FROM invoices) AS invoice_average,
-    invoice_total - (SELECT invoice_average) AS difference -- we are not allowed ot use column aliases that's why we used select.
+    invoice_total - (SELECT invoice_average) AS difference -- we are not allowed ot use column aliases in SELECT statement where they are defined.
 FROM invoices;
 
 -- [Subqueries in From clause]
